@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Samarth Srivastava 6b1b8098</title>
+<title>6b1b8098</title>
 </head>
 <body>
 <h1 name="6b1b8098">Welcome to my guessing game</h1>
