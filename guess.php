@@ -4,7 +4,7 @@
 <title>Samarth Srivastava 6b1b8098</title>
 </head>
 <body>
-<h1>Welcome to my guessing game</h1>
+<h1 name="6b1b8098">Welcome to my guessing game</h1>
 <p>
 <?php
   if ( !isset($_GET['guess']) ) { 
