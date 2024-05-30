@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Meng Shi Severance - Broken Rock Paper Scissors</title>
+<title>Abhsihek Kumar Gupta - Broken Rock Paper Scissors</title>
 <?php require_once "bootstrap.php"; ?>
 </head>
 <body>
