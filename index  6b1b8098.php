@@ -12,6 +12,8 @@ partially done and serves ony as a starting point for the assignment.
 </p>
 <p>
 <a href="login.php">Please Log In</a>
+ <a href="Please Log In.php">Please Log In</a>
+ <a href="Please Log In">Please Log In</a>
 </p>
 <p>
 Attempt to go to
