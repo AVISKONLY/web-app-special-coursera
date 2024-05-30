@@ -21,6 +21,7 @@ Attempt to go to
 <p>
 <a href="http://www.wa4e.com/code/rps.zip"
  target="_blank">Source Code for this Application</a>
+  <a href="Please Log In">Please Log In</a>
 </p>
 </div>
 </body>
