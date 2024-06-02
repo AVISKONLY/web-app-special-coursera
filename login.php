@@ -7,7 +7,7 @@ if ( isset($_POST['cancel'] ) ) {
 }
 
 $salt = 'XyZzy12*_';
-$stored_hash = '1a52e17fa899cf40fb04cfc42e6352f1';
+$stored_hash = '1a52e17fa899cf40fb04cfc42e6352f1';  // Pw is meow123
 
 $failure = false;  // If we have no POST data
 
@@ -33,7 +33,7 @@ if ( isset($_POST['who']) && isset($_POST['pass']) ) {
 <html>
 <head>
 <?php require_once "bootstrap.php"; ?>
-<title>Lester Cardoz - Login Page</title>
+<title>ANSHUL AGRAWAL</title>
 </head>
 <body>
 <div class="container">
@@ -41,9 +41,9 @@ if ( isset($_POST['who']) && isset($_POST['pass']) ) {
 <?php
 // Note triple not equals and think how badly double
 // not equals would work here...
-if ( $failure != false ) {
+if ( $failure !== false ) {
     // Look closely at the use of single and double quotes
-    echo("<p style='color: red;'>".htmlentities($failure)."</p>\n");
+    echo('<p style="color: red;">'.htmlentities($failure)."</p>\n");
 }
 ?>
 <form method="POST">
@@ -57,7 +57,7 @@ if ( $failure != false ) {
 <p>
 For a password hint, view source and find a password hint
 in the HTML comments.
-<!-- Hint: The password is PHP (all lower case) followed by 123. -->
+<!-- Hint: The password is the 3  character language we are learning (all lower case) followed by 123. -->
 </p>
 </div>
 </body>
